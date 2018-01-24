@@ -2,12 +2,13 @@
 
 use SilverStripe\ORM\DataObject;
 
-class HomePageSlide extends DataObject
+class HomePageSlides extends DataObject
 {
     private static $db = [
-        'Title' => 'Varchar(255)',
-        private static $has_one = array(
-          'image' => 'Image'
-        );
+      'Title' => 'Varchar(255)',
+    ];
+
+    private static $has_one = [
+      'Image' => 'Image'
     ];
 }
