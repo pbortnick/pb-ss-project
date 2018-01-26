@@ -8,7 +8,12 @@
     </div>
     <% if $Form %>
       <div class="form">
-        $MyForm
+        $Form
+      </div>
+    <% end_if %>
+    <% if $HelloForm %>
+      <div class="form">
+        $HelloForm
       </div>
     <% end_if %>
   </article>
