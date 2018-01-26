@@ -11,14 +11,15 @@ class HomePage extends Page
 
   public function getCMSFields() {
     $f = parent::getCMSFields();
-    $fields->addFieldToTab('Root.Attachments', UploadField::create('Image'));
-    $f->addFieldToTab('Root.Main',
-    new GridField('Pages', 'All pages', SiteTree::get()));
+    $fields->addFieldToTab('Root.Main', GridField::create(
+      'HomePageSlides',
+      'HomePageSlides on this page',
+      $this->HomePageSlides(),
+      GridFieldConfig_RecordEditor::create()
+    ));
+    // $f->addFieldToTab('Root.Main', new GridField('pages', 'All pages', $this->HomePageSlides(), $config);
     $config = GridFieldConfig_RecordEditor::create();
-    /**
-    * $config = GridFieldConfig_RecordEditor::create();
-    * $grid = GridField::create('ComparisonTopLevelImages', 'Images', $this->ComparisonTopLevelImages(), $config);
-    */
+    // $grid = GridField::create('ComparisonTopLevelImages', 'Images', $this->ComparisonTopLevelImages(), $config);
     return $f;
   }
 }
