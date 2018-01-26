@@ -5,8 +5,13 @@
     "require": {
         "php": ">=5.6.0",
         "silverstripe/recipe-plugin": "^1",
-        "silverstripe/recipe-cms": "1.0.1@stable",
+        "silverstripe/recipe-cms": "1.0.2",
+        "silverstripe/recipe-core": "1.0.2",
         "silverstripe-themes/simple": "~3.2.0",
+        "silverstripe/cms": "4.0.2",
+        "silverstripe/segment-field": "2.1.x-dev",
+        "silverstripe/userforms": "dev-master",
+        "symbiote/silverstripe-gridfieldextensions": "3.2.x-dev",
         "praxisnetau/silverstripe-vanilla": "^1.0"
     },
     "require-dev": {
