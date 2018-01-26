@@ -8,9 +8,8 @@
     </div>
     <% if $Form %>
       <div class="form">
-        $Form
+        $MyForm
       </div>
     <% end_if %>
   </article>
 </div>
- 

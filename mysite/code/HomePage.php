@@ -11,7 +11,8 @@ class HomePage extends Page
 
   public function getCMSFields() {
     $f = parent::getCMSFields();
-    $f->addFieldToTab('Root.Pages',
+    $fields->addFieldToTab('Root.Attachments', UploadField::create('Image'));
+    $f->addFieldToTab('Root.Main',
     new GridField('Pages', 'All pages', SiteTree::get()));
     $config = GridFieldConfig_RecordEditor::create();
     // $config = GridFieldConfig_RecordEditor::create();
