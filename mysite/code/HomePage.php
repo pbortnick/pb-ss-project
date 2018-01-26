@@ -15,8 +15,10 @@ class HomePage extends Page
     $f->addFieldToTab('Root.Main',
     new GridField('Pages', 'All pages', SiteTree::get()));
     $config = GridFieldConfig_RecordEditor::create();
-    // $config = GridFieldConfig_RecordEditor::create();
-    // $grid = GridField::create('ComparisonTopLevelImages', 'Images', $this->ComparisonTopLevelImages(), $config);
+    /**
+    * $config = GridFieldConfig_RecordEditor::create();
+    * $grid = GridField::create('ComparisonTopLevelImages', 'Images', $this->ComparisonTopLevelImages(), $config);
+    */
     return $f;
   }
 }

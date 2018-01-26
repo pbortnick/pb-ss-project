@@ -10,7 +10,6 @@ class HomePageController extends PageController
 
 		if($this->owner->IncludeCSS){
 			if($this->owner->SliderNavType == 'PrevNext'){
-				// use font-awesome arrows for prev/next navigation
 				Requirements::css('//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css');
 			}
 			Requirements::css('vanilla/css/homepage-slider.css');

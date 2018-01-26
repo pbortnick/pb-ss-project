@@ -6,11 +6,11 @@
     <div class="content">
       $Content
     </div>
-    <% if $Form %>
+
+    <% if $HelloForm %>
       <div class="form">
-        $Form
+        $HelloForm
       </div>
     <% end_if %>
-
   </article>
 </div>
