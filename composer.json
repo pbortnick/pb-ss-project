@@ -10,7 +10,7 @@
         "silverstripe-themes/simple": "~3.2.0",
         "silverstripe/cms": "4.0.2",
         "silverstripe/segment-field": "2.1.x-dev",
-        "silverstripe/userforms": "dev-master",
+        "silverstripe/userforms": "5.0.x-dev",
         "symbiote/silverstripe-gridfieldextensions": "3.2.x-dev",
         "praxisnetau/silverstripe-vanilla": "^1.0"
     },

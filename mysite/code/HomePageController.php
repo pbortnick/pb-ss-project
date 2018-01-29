@@ -1,11 +1,9 @@
 <?php
 
-use SilverStripe\CMS\Controllers\ContentController;
-
 class HomePageController extends PageController
 {
   public function onBeforeInit(){
-		Requirements::javascript(THIRDPARTY_DIR.'/jquery/jquery.js');
+		// Requirements::javascript(THIRDPARTY_DIR.'/jquery/jquery.js');
 		Requirements::javascript('vanilla/javascript/homepage-slider.js');
 
 		if($this->owner->IncludeCSS){
