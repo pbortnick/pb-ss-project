@@ -30,10 +30,12 @@
   "scripts": {
     "start": "node webpack.server.js",
     "watch": "webpack --env.development --colors --watch",
-    "build": "webpack --env.production --colors --optimize-minimize"
+    "build": "webpack -p",
+    "dev": "webpack-dev-server --hot --inline"
   },
   "dependencies": {
     "jquery": "^3.2.1",
+    "owl.carousel": "^2.2.0",
     "popper.js": "^1.12.7"
   },
   "devDependencies": {

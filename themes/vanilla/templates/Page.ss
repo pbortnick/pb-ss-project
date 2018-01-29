@@ -2,6 +2,8 @@
 
 <html class="no-js" lang="$ContentLocale">
   <head>
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
     <% base_tag %>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -16,5 +18,7 @@
     <% include Footer %>
     <% require themedJavascript('production/js/bundle') %>
     <%-- require javascript('http://localhost:8080/production/js/bundle.js') --%>
+    <script src="jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
   </body>
 </html>

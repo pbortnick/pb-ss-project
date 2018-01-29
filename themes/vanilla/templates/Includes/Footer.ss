@@ -1,4 +1,7 @@
 <footer>
+<script src="jquery.min.js"></script>
+<script src="owlcarousel/owl.carousel.min.js"></script>
+
   <div class="container">
     <div class="row">
       <div class="col-md">
