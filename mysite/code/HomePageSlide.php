@@ -2,6 +2,10 @@
 
 use SilverStripe\ORM\DataObject;
 use SilverStripe\Assets\Image;
+use SilverStripe\Forms\TextField;
+use SilverStripe\AssetAdmin\Forms\UploadField;
+
+
 
 class HomePageSlide extends DataObject
 {
@@ -21,7 +25,7 @@ class HomePageSlide extends DataObject
         $slide->setAllowedFileCategories('image');
         $slide->setFolderName('Home Page Slides');
         $f->addFieldToTab('Root.Main', $slide);
-      endif;
+      }
 
       $title = TextField::create('Title');
       $f->addFieldToTab('Root.Main', $title);

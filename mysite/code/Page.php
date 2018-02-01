@@ -8,5 +8,4 @@ class Page extends SiteTree
 
     private static $has_one = [];
 
-
 }

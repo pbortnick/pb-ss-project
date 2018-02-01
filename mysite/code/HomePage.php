@@ -19,9 +19,7 @@ class HomePage extends Page
       $this->HomePageSlides(),
       GridFieldConfig_RecordEditor::create()
     ));
-    // $f->addFieldToTab('Root.Main', new GridField('pages', 'All pages', $this->HomePageSlides(), $config);
-    // $config = GridFieldConfig_RecordEditor::create();
-    // $grid = GridField::create('ComparisonTopLevelImages', 'Images', $this->ComparisonTopLevelImages(), $config);
     return $f;
   }
+
 }

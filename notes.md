@@ -1,10 +1,13 @@
+
+
+
+
 https://atom.io/packages/linter-php
 SASS
 yarn
 webpack
 yarn install - slick slider, owl carousel
 webpack combine js code into 1
-explain yarn setup w vanilla & webpack*package json
 
 if success - success message, else show form again with error
 

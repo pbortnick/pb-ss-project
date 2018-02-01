@@ -12,7 +12,8 @@
         "silverstripe/segment-field": "2.1.x-dev",
         "silverstripe/userforms": "5.0.x-dev",
         "symbiote/silverstripe-gridfieldextensions": "3.2.x-dev",
-        "praxisnetau/silverstripe-vanilla": "^1.0"
+        "praxisnetau/silverstripe-vanilla": "^1.0",
+        "gdmedia/silverstripe-jquery": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.7"
